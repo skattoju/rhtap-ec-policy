@@ -15,6 +15,8 @@ rule_data:
   # sometimes be reported as coming from the repository below. This is a temporary workaround
   # until the JIRA is resolved.
   - quay.io/openshift-release-dev/ocp-v4.0-art-dev
+  # Allow inclusion of preflight in rhtap / konflux
+  - quay.io/opdev/
 
   allowed_java_component_sources:
   - redhat
